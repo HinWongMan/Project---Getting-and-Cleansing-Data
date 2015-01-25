@@ -1,0 +1,32 @@
+Data dictionary – Project
+
+Below stated blocks of word of data label. The meaning of the data is composed using the blocks.
+For example, “tBodyAccelerometerMeanOfZ” is the mean of the mean time domain signal captured by Z-axis Accelerometer. “fBodyGyroscopeJerkSignalMagitudeStandardDeviation” is the standard deviation of magnitude of Jerk signal calculated using the Euclidean norm
+
+tBody
+	Time domain signal captured by meters
+
+fBody
+	Body signal undergone Fast Fourier Transform (FFT)
+
+Accelerometer
+	Body signal captured by Accelerometer at a constant rate pf 50 Hz, filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+
+Gyroscope
+	Body signal captured by Gyroscope at a constant rate pf 50 Hz, filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+
+JerkSignal
+	Body linear acceleration and angular velocity were derived in time
+
+Mean
+	Mean of the body signal
+
+StandardDeviation
+	Standard Deviation of the body signal
+
+Magnitude
+	Magnitude of the body signal calculated using the Euclidean norm
+
+OfX/OfY/OfZ
+	Signals of X/Y/Z axis
+
